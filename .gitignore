@@ -1,0 +1,41 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model and runtime artifacts
+*.pt
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.png
+outputs/*.txt
+
+# Keep assignment screenshots tracked if needed
+!outputs/recognized_objects_screenshot.jpg
+!outputs/students_and_bus_screenshot.jpg
+!outputs/sample_recognition_screenshot.jpg
